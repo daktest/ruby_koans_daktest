@@ -18,6 +18,8 @@ def triangle(a, b, c)
     return :equilateral
   elsif a == b || b == c || a == c
     return :isosceles
+  else
+    return :scalene
   end
 end
 
